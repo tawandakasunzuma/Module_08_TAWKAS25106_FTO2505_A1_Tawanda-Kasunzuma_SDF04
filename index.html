@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Footer</title>
   </head>
   <body>
-    <footer class="bg-[#659f8f] dark:bg-[#313131]">
-      <div class="container px-6 py-12 mx-auto">
+    <footer>
+      <div class="container-top">
+        <section class="section-subscription">
+          <h1 class="title">Subscribe to our newsletter for updates.</h1>
+          <input
+            type="email"
+            class="email-entry-field"
+            placeholder="Email Address"
+            required
+          />
+          <button type="submit" class="subscribe-button">Subscribe</button>
+        </section>
+
+        <section class="section-links">
+          <div class="quick-links">
+            <h2 class="links-title">Quick Link</h2>
+            <ul class="list">
+              <li><a href="#" class="list-item">Home</a></li>
+              <li><a href="#" class="list-item">Who We Are</a></li>
+              <li><a href="#" class="list-item">Our Philosophy</a></li>
+            </ul>
+          </div>
+          <div class="technologies-links">
+            <h2 class="links-title">Technologies</h2>
+            <ul class="list">
+              <li><a href="#" class="list-item">HTML</a></li>
+              <li><a href="#" class="list-item">CSS</a></li>
+              <li><a href="#" class="list-item">JavaScript</a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <div class="container-separator"></div>
+
+      <div class="container-bottom">
+        <img
+          class=""
+          src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
+          alt="CodeSpace Logo"
+        />
+      </div>
+
+      <!--     <div class="container px-6 py-12 mx-auto">
         <div class="flex">
           <a href="#">
             <img
@@ -19,6 +67,7 @@
           </a>
         </div>
       </div>
+        -->
     </footer>
   </body>
 </html>
